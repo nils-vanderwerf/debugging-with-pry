@@ -1,7 +1,7 @@
 require 'pry'
 
 def prying_into_the_method
-	inside_the_method = "We're inside the method"
+	inside_the_method = 2
 	puts inside_the_method
 	puts "We're about to stop because of pry!"
 	binding.pry
